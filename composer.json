@@ -1,0 +1,34 @@
+{
+    "name": "rindow/rindow-web-http",
+    "type": "library",
+    "description": "Http Message and Cookie",
+    "keywords": ["rindow","framework","web","http","message","PSR-7"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3",
+        "interop-phpobjects/lenient-web": "*",
+        "rindow/rindow-stdlib": "*"
+    },
+    "require-dev": {
+        "interop-phpobjects/lenient-web": "*",
+        "rindow/rindow-stdlib": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rindow\\Web\\Http\\": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://rindow.github.io/rindow-packagist/packages.json",
+            "options": {
+                "ssl": {
+                    "verify_peer": "true"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev"
+}
