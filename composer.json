@@ -8,29 +8,16 @@
         "php": ">=5.3.3",
         "psr/http-message": "^1.0",
         "interop-phpobjects/lenient-web": "*",
-        "rindow/rindow-stdlib": "*"
+        "rindow/rindow-stdlib": "1.*"
     },
     "require-dev": {
         "psr/http-message": "^1.0",
         "interop-phpobjects/lenient-web": "*",
-        "rindow/rindow-stdlib": "*"
+        "rindow/rindow-stdlib": "1.*"
     },
     "autoload": {
         "psr-0": {
             "Rindow\\Web\\Http\\": "src/"
         }
-    },
-
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://rindow.github.io/rindow-packagist/packages.json",
-            "options": {
-                "ssl": {
-                    "verify_peer": "true"
-                }
-            }
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
